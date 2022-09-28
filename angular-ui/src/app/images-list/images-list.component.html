@@ -1,0 +1,10 @@
+<div class="main">
+  <app-header ></app-header>
+  <app-image-canvas-editing></app-image-canvas-editing>
+  <div class="sidenav">
+    <h1>Collection</h1>
+    <a *ngFor="let imageLink of listOfImages">
+      <app-image-link [image]="imageLink"></app-image-link>
+    </a>
+  </div>
+</div>
