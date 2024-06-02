@@ -133,7 +133,7 @@ The metadata is represented as annotations on the image in the Canvas and can be
 - `Edit Metadata` – Enables opening the window for editing the current Metadata JSON. \
   <img src="assets%2FMetadata.png" height="300" width="400"/>
 - `Save Metadata` – Calls the `Metadata.Service` microservice and receives the link to the Metadata Json text file on Firebase.
-- `Clear All` – Deletes all the current metadata annotations on the
+- `Clear All` – Deletes all the current metadata annotations on the Canvas.
 
 
 ## Requirements:
